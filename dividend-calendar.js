@@ -92,7 +92,7 @@ function computeBaseUrl() {
     const port = location.port === '8001' ? '5001' : '5000'
     return `http://localhost:${port}`
   }
-  return 'https://api.nodostream.com'
+  return ''
 }
 
 function saveBaseUrl() {
